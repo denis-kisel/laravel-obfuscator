@@ -13,7 +13,7 @@
             "DenisKisel\\Obfuscator\\": "src/"
         }
     },
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "extra": {
         "laravel": {
             "providers": [
