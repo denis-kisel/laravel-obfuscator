@@ -1,6 +1,7 @@
 {
     "name": "denis-kisel/laravel-obfuscator",
     "description": "Class for obfuscate php script/class/code basics on https://github.com/pH-7/Obfuscator-Class.",
+    "keywords": ["laravel","obfuscator"],
     "authors": [
         {
             "name": "Denis Kisel",
