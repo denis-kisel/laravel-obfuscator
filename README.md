@@ -3,7 +3,7 @@ Obfuscator class for laravel. Basics on https://github.com/pH-7/Obfuscator-Class
 
 # Installation
 
-1. Run `composer require denis-kisel/obfuscator`  
+1. Run `composer require denis-kisel/laravel-obfuscator`  
 2. Register a service provider in the `app.php` configuration file  
 `DenisKisel\Obfuscator\ServiceProvider::class,`  
 3. Add facade in the same file  
