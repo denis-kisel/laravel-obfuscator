@@ -1,0 +1,29 @@
+{
+    "name": "denis-kisel/laravel-obfuscator",
+    "description": "Class for obfuscate php script/class/code basics on https://github.com/pH-7/Obfuscator-Class.",
+    "authors": [
+        {
+            "name": "Denis Kisel",
+            "email": "denis.kisel92@gmail.com"
+        }
+    ],
+    "require": {
+        "laravel/framework": "~5.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "DenisKisel\\Obfuscator\\": "src/"
+        }
+    },
+    "minimum-stability": "stable",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "DenisKisel\\Obfuscator\\ObfuscatorServiceProvider"
+            ],
+            "aliases": {
+                "Obfuscator": "DenisKisel\\Obfuscator\\Facades\\Obfuscator"
+            }
+        }
+    }
+}
